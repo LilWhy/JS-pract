@@ -6,22 +6,25 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
-      <img src="img/logo.png">
-      <div>
-        <p class="request"><input type="search" placeholder="Введите запрос"></p>
-      </div>
-    </header>
+    <div>
+      <img class="logo" src="img/logo.svg">
+      <form>
+        <input type="text" placeholder="Введите запрос">
+      </form>
+    </div>
+
 
     <p class="clients_name">Клиенты</p>
 
     <table class="table_klients">
-        <tr class="ID">ID </tr>
-        <tr class="FIO">Фамилия Имя Отчество</tr>
-        <tr class="date_create">Дата и время создания</tr>
-        <tr class="date_last_changes">Последние изменения</tr>
-        <tr class="contacts">Контакты</tr>
-        <tr class="actions">Действия</tr>
+      <tr>
+        <td class="ID">ID</td>
+        <td class="FIO">Фамилия Имя Отчество</td>
+        <td class="date_create">Дата и время создания</td>
+        <td class="date_last_changes">Последние изменения</td>
+        <td class="contacts">Контакты</td>
+        <td class="actions">Действия</td>
+      </tr>
     </table>
 
     <p> <button class="add_client">добавить клиента</button></p>
