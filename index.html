@@ -7,26 +7,37 @@
   </head>
   <body>
     <div>
-      <img class="logo" src="img/logo.svg">
-      <form>
+      <form class="search">
         <input type="text" placeholder="Введите запрос">
       </form>
     </div>
 
 
     <p class="clients_name">Клиенты</p>
-
+    <script async ></script>
     <table class="table_klients">
       <tr>
-        <td class="ID">ID</td>
-        <td class="FIO">Фамилия Имя Отчество</td>
-        <td class="date_create">Дата и время создания</td>
-        <td class="date_last_changes">Последние изменения</td>
-        <td class="contacts">Контакты</td>
-        <td class="actions">Действия</td>
+        <td class="ID">ID
+          <button>SortID</button>
+        </td>
+        <td class="FIO">Фамилия Имя Отчество
+          <button class="SortFio">SortFIO</button>
+        </td>
+        <td class="date_create">Дата и время создания
+          <button class="SortDataCreate">SortDateCreate</button>
+        </td>
+        <td class="date_last_changes">Последние изменения
+          <button class="SortDataChange">SortDateChange</button>
+        </td>
+        <td class="contacts">Контакты
+          <button class="SortContacts">SortContacts</button>
+        </td>
+        <td class="actions">Действия
+          <button class="SortActions">SortActions</button>
+        </td>
       </tr>
     </table>
 
-    <p> <button class="add_client">добавить клиента</button></p>
+    <p> <button class="add_client">Добавить клиента</button></p>
   </body>
 </html>
