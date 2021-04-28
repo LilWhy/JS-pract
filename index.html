@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
+
     <div>
       <form class="search">
         <input type="text" placeholder="Введите запрос">
@@ -14,7 +16,6 @@
 
 
     <p class="clients_name">Клиенты</p>
-    <script async ></script>
     <table class="table_klients">
       <tr>
         <td class="ID">ID
@@ -35,9 +36,11 @@
         <td class="actions">Действия
           <button class="SortActions">SortActions</button>
         </td>
-      </tr>
+        <script src="src/updatetable.js"></script>
+      </tr> 
     </table>
 
+    <div onclick="alert('Кнопка нажата')" style="cursor:pointer;border-width:1px;border-style:solid;background-color:gray;width:100px;text-align:center;color:#ffffff;">Текст</div> 
     <p> <button class="add_client">Добавить клиента</button></p>
   </body>
 </html>
